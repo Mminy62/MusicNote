@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="휴대폰 AR로 즐기는 부산원아시아페스티벌"
+        android:fontFamily="@font/notosanskrregular"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        />
+
+    <ImageView
+        android:id="@+id/bof_logo"
+        android:layout_width="184dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/bof_logo" />
+
+    <Button
+        android:id="@+id/musicNote_btn"
+        android:layout_width="340dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/btn_bg"
+        android:text="#두근두근_행사장가는길\nAR 음악노트"
+        android:textSize="20dp"
+        android:fontFamily="@font/notosanskrregular"/>
+
+
+</LinearLayout>
